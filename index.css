@@ -219,3 +219,15 @@ nav a:hover {
 
   border-radius: 10px;
 }
+
+footer {
+  background: white;
+
+  padding: 25px;
+
+  text-align: center;
+
+  margin-top: 40px;
+
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
+}
