@@ -133,3 +133,41 @@ nav a:hover {
 
   border-radius: 10px;
 }
+
+.features {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 25px;
+
+  flex-wrap: wrap;
+
+  padding: 50px 8%;
+}
+
+.card {
+  background: white;
+
+  width: 300px;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  text-align: center;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+
+  color: #2d6cdf;
+}
+
+.card p {
+  color: #666;
+
+  line-height: 24px;
+}
