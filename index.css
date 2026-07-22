@@ -171,3 +171,51 @@ nav a:hover {
 
   line-height: 24px;
 }
+
+.about {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  padding: 70px 8%;
+}
+
+.about-text {
+  flex: 1;
+
+  min-width: 300px;
+}
+
+.about-text h2 {
+  font-size: 40px;
+
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: #666;
+
+  line-height: 30px;
+
+  font-size: 18px;
+}
+
+.about-image {
+  flex: 1;
+
+  text-align: center;
+
+  min-width: 300px;
+}
+
+.about-image img {
+  width: 100%;
+
+  max-width: 400px;
+
+  border-radius: 10px;
+}
